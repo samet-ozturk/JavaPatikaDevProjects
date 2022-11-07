@@ -19,7 +19,7 @@ public class Main {
                 guess = input.nextInt();
                 if ((guess>100) || (guess<0)){
                     System.out.print("Sadece 1-100 Arasında değerler girebilirsiniz. Bu sebeple program. kapatılıyor.");
-                    break;
+                    continue;
                 }
                 guessList[again-1]=guess;
 
