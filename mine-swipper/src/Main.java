@@ -1,11 +1,11 @@
-
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-    Scanner input = new Scanner(System.in);
-    int satir;
-    int sutun;
+        Scanner input = new Scanner(System.in);
+        int satir;
+        int sutun;
+
 
 
         System.out.println("Kaç Satırlı olsun: ");
@@ -15,8 +15,16 @@ public class Main {
 
         mineSweeper start = new mineSweeper(satir,sutun);
 
-       start.printer();
-       start.matrix();
-       start.randoMine();
+
+        start.printer();
+
+
+        start.randoMine();
+
+        start.play();
+        start.matrixshow();
+
+
+
     }
 }
